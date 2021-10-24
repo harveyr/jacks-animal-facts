@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Jack's Animal Facts</title>
+        <style>
+@import url('https://fonts.googleapis.com/css2?family=Mali&display=swap');
+
+        body {
+            font-family: 'Mali', cursive;
+            font-size: 1.2em;
+        }
+        h1 {
+            text-align: center;
+            font-size: 2em;
+        }
+        .title {
+            background-color: #b5d1ff;
+            padding: 4px 0;
+        }
+        .centered {
+            text-align: center;
+        }
+        .container {
+            max-width: 40em;
+            margin: auto;
+        }
+        </style>
+    </head>
+
+    <body>
+        <div class="title">
+            <h1>Jack's Animal Facts</h1>
+        </div>
+        <section class="section">
+            <div class="container">
+                {% block content %}{% endblock %}
+            </div>
+        </section>
+    </body>
+
+</html>

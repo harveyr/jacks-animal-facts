@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="centered">
+    <h2>
+      {{ page.title }}
+    </h2>
+
+    <p class="subtitle"><strong>{{ page.date }}</strong></p>
+    {{ page.content | safe }}
+
+    <p>
+        Click <a href="/facts">here</a> for more facts!
+    <p>
+</div>
+{% endblock content %}
+
