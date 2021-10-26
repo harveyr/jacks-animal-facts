@@ -13,10 +13,11 @@
         }
         h1 {
             text-align: center;
-            font-size: 2em;
+            font-size: 2.5em;
         }
         .title {
-            background-color: #b5d1ff;
+            color: #F8F17F;
+            background-color: #431F07;
             padding: 4px 0;
         }
         .centered {
@@ -30,6 +31,24 @@
             border-radius: 6px;
             border: 1px solid black;
         }
+        .title-border {
+            height: .3em;
+        }
+        .title-border-1 {
+            background-color: #824026;
+        }
+        .title-border-2 {
+            background-color: #F3A800;
+        }
+        .title-border-3 {
+            background-color: #F8F17F;
+        }
+        .title-border-4 {
+            background-color: #5B995A;
+        }
+        .title-border-5 {
+            background-color: #96D65E;
+        }
         </style>
     </head>
 
@@ -37,6 +56,11 @@
         <div class="title">
             <h1>Jack's Animal Facts</h1>
         </div>
+        <div class="title-border title-border-1"></div>
+        <div class="title-border title-border-2"></div>
+        <div class="title-border title-border-3"></div>
+        <div class="title-border title-border-4"></div>
+        <div class="title-border title-border-5"></div>
         <section class="section">
             <div class="container">
                 {% block content %}{% endblock %}
