@@ -4,7 +4,7 @@
 
 {% for page in section.pages %}
 <p>
-<a href="{{ page.permalink | safe }}">{{ page.title }}</a>
+<a href="{{ page.permalink | safe }}" class="no-u">{{ page.title }}</a>
 <br>
 <small>
     {{page.date}}
