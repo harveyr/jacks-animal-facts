@@ -9,7 +9,10 @@
 
     {{ page.content | safe }}
 
-    <p>Added on {{ page.date }}.</p>
+    <p>
+        Added
+        {{page.date | date(format="%B %d, %Y")}}.
+    </p>
     <p>
         Click <a href="/facts">here</a> for more facts!
     <p>

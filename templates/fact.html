@@ -7,7 +7,7 @@
 <a href="{{ page.permalink | safe }}" class="no-u">{{ page.title }}</a>
 <br>
 <small>
-    {{page.date}}
+    {{page.date | date(format="%B %d, %Y")}}
 </small>
 </p>
 {% endfor %}
