@@ -10,6 +10,8 @@
         body {
             font-family: 'Mali', cursive;
             font-size: 2em;
+            background-color: rgba(150, 214, 94, 0.5);
+            margin: 0;
         }
         h1 {
             text-align: center;
@@ -22,6 +24,7 @@
             color: #F8F17F;
             background-color: #431F07;
             padding: 4px 0;
+            text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
         }
         .centered {
             text-align: center;
@@ -29,10 +32,15 @@
         .container {
             max-width: 40em;
             margin: auto;
+            padding-left: 8px;
         }
         .container img {
             border-radius: 6px;
             border: 1px solid black;
+        }
+        .title-bg-print {
+            background-image: url("/leopard-bg.jpeg");
+            background-repeat: repeat;
         }
         .title-border {
             height: .3em;
@@ -56,7 +64,7 @@
     </head>
 
     <body>
-        <div class="title">
+        <div class="title title-bg-print">
             <h1>Jack's Animal Facts</h1>
         </div>
         <div class="title-border title-border-1"></div>
